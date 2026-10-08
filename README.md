@@ -3,7 +3,7 @@
 Quanto se pede pelo m² em nove cidades da Serra Gaúcha, como o preço evoluiu frente à inflação e ao custo de construir, para onde tende a ir e quanto se pede por um imóvel com determinadas características.
 
 **Painel com mapa de calor:** https://fabi3105.github.io/mercado-imobiliario-serra-gaucha/
-**Painel em Power BI:** pasta `Imoveis_Serra_PBIP` (projeto .pbip) e modelo `Imoveis_Serra.pbit`
+**Painel em Power BI:** [ver em PDF](painel_power_bi.pdf), sem precisar abrir o Power BI; projeto na pasta `Imoveis_Serra_PBIP` (formato .pbip)
 
 > Os preços são **pedidos em anúncios**, coletados em 07/10/2026, e não preços de venda. O valor fechado costuma ser menor.
 

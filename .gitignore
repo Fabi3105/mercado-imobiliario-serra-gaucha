@@ -1,10 +1,11 @@
 # Publica só o que está liberado abaixo; o resto (base de anúncios, fontes baixadas, rascunhos) fica no computador
 /*
 !/.gitignore
+!/.nojekyll
 !/README.md
 !/index.html
 !/ROTEIRO_POWER_BI.md
-!/Imoveis_Serra.pbit
+!/painel_power_bi.pdf
 !/scripts/
 !/Imoveis_Serra_PBIP/
 !/dados/
