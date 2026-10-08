@@ -1,0 +1,9 @@
+﻿horizonte_meses;regra;testes;erro_medio_abs_pct;vies_pct;erro_p10_pct;erro_p90_pct
+24;real constante (acompanha o IPCA);44;5,5;-5,5;-9,3;-1,1
+24;ritmo real dos últimos 12 meses;44;6,5;-5,6;-11,2;0,8
+24;ritmo real dos últimos 36 meses;44;7,5;-7,5;-10,9;-3,7
+24;ritmo real desde 2018;44;8,5;-8,5;-11,4;-5,6
+36;real constante (acompanha o IPCA);32;8,1;-8,1;-10,9;-4,0
+36;ritmo real dos últimos 12 meses;32;10,5;-9,5;-18,3;0,3
+36;ritmo real dos últimos 36 meses;32;12,7;-12,7;-17,2;-9,0
+36;ritmo real desde 2018;32;13,2;-13,2;-17,0;-10,3

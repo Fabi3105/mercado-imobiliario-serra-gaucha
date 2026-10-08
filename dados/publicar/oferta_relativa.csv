@@ -1,0 +1,19 @@
+﻿cidade;categoria;anuncios;preco_m2_mediana;estoque;anuncios_por_mil_domicilios;media_serra;indice_oferta;mercado_turistico;leitura
+Bento Gonçalves;Apartamento;1663;8654,0;18396,0;90,4;112,8;80,0;False;oferta na média
+Bento Gonçalves;Casa;339;5960,0;30394,0;11,2;26,3;43,0;False;oferta escassa
+Canela;Apartamento;1174;12631,0;2071,0;566,9;112,8;503,0;True;oferta abundante
+Canela;Casa;959;8772,0;16200,0;59,2;26,3;225,0;True;oferta abundante
+Carlos Barbosa;Apartamento;87;6713,0;3182,0;27,3;112,8;24,0;False;oferta escassa
+Carlos Barbosa;Casa;54;5701,5;8455,0;6,4;26,3;24,0;False;oferta escassa
+Caxias do Sul;Apartamento;5323;6127,0;62687,0;84,9;112,8;75,0;False;oferta na média
+Caxias do Sul;Casa;3270;4658,0;122000,0;26,8;26,3;102,0;False;oferta na média
+Farroupilha;Apartamento;242;6527,5;6533,0;37,0;112,8;33,0;False;oferta escassa
+Farroupilha;Casa;354;5017,0;20456,0;17,3;26,3;66,0;False;oferta na média
+Flores da Cunha;Apartamento;53;7033,0;2589,0;20,5;112,8;18,0;False;oferta escassa
+Flores da Cunha;Casa;14;4391,0;9206,0;1,5;26,3;6,0;False;oferta escassa
+Garibaldi;Apartamento;174;7112,0;4162,0;41,8;112,8;37,0;False;oferta escassa
+Garibaldi;Casa;105;5556,0;9216,0;11,4;26,3;43,0;False;oferta escassa
+Gramado;Apartamento;2626;16134,5;2458,0;1068,3;112,8;947,0;True;oferta abundante
+Gramado;Casa;747;10949,0;12919,0;57,8;26,3;220,0;True;oferta abundante
+Nova Petrópolis;Apartamento;346;8380,5;1555,0;222,5;112,8;197,0;True;oferta abundante
+Nova Petrópolis;Casa;370;6613,0;7482,0;49,5;26,3;188,0;True;oferta abundante

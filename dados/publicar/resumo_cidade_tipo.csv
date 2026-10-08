@@ -1,0 +1,28 @@
+﻿cidade;categoria;imoveis;preco_m2_mediana;preco_m2_p25;preco_m2_p75;preco_mediano;area_mediana
+Bento Gonçalves;Apartamento;1663;8654,0;6888,0;10502,0;790590,0;92,0
+Bento Gonçalves;Casa;339;5960,0;4536,0;7878,0;939000,0;162,0
+Bento Gonçalves;Terreno;485;718,0;554,0;982,0;350000,0;429,0
+Canela;Apartamento;1174;12631,0;10460,0;15292,0;914340,0;75,0
+Canela;Casa;959;8772,0;6721,0;11268,0;1350000,0;161,0
+Canela;Terreno;415;1020,0;766,0;1528,0;650000,0;640,0
+Carlos Barbosa;Apartamento;87;6713,0;5990,0;7600,0;610000,0;85,0
+Carlos Barbosa;Casa;54;5702,0;4424,0;6726,0;1021500,0;207,0
+Carlos Barbosa;Terreno;48;720,0;607,0;927,0;347500,0;477,0
+Caxias do Sul;Apartamento;5323;6127,0;4867,0;7988,0;510000,0;85,0
+Caxias do Sul;Casa;3270;4658,0;3556,0;5962,0;750000,0;171,0
+Caxias do Sul;Terreno;1953;774,0;539,0;1236,0;424000,0;432,0
+Farroupilha;Apartamento;242;6528,0;4987,0;8485,0;557500,0;86,0
+Farroupilha;Casa;354;5017,0;3724,0;6177,0;587500,0;138,0
+Farroupilha;Terreno;265;528,0;420,0;696,0;249000,0;435,0
+Flores da Cunha;Apartamento;53;7033,0;6201,0;8652,0;606334,0;90,0
+Flores da Cunha;Casa;14;4391,0;3394,0;5627,0;574500,0;176,0
+Flores da Cunha;Terreno;56;441,0;397,0;550,0;187370,0;401,0
+Garibaldi;Apartamento;174;7112,0;5994,0;8710,0;680000,0;97,0
+Garibaldi;Casa;105;5556,0;4223,0;7299,0;1042600,0;200,0
+Garibaldi;Terreno;157;595,0;480,0;705,0;375000,0;595,0
+Gramado;Apartamento;2626;16134,0;13000,0;20798,0;1380000,0;82,0
+Gramado;Casa;747;10949,0;8974,0;14484,0;2700000,0;249,0
+Gramado;Terreno;368;1183,0;943,0;1939,0;710000,0;643,0
+Nova Petrópolis;Apartamento;346;8380,0;6783,0;9926,0;699950,0;87,0
+Nova Petrópolis;Casa;370;6613,0;5185,0;7942,0;995150,0;165,0
+Nova Petrópolis;Terreno;375;615,0;394,0;851,0;320000,0;490,0

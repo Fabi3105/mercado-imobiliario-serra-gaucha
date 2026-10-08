@@ -1,0 +1,55 @@
+﻿cidade;ano;anos_a_frente;tipo;preco_m2_real;preco_m2_real_min;preco_m2_real_max;preco_m2_nominal;base
+Bento Gonçalves;2026;0;Apartamento;8654;8654;8654;8654;hipótese: mesmo ritmo de Caxias do Sul
+Bento Gonçalves;2027;1;Apartamento;8654;8420;9007;9106;hipótese: mesmo ritmo de Caxias do Sul
+Bento Gonçalves;2028;2;Apartamento;8654;8187;9360;9582;hipótese: mesmo ritmo de Caxias do Sul
+Bento Gonçalves;2029;3;Apartamento;8654;7953;9713;10082;hipótese: mesmo ritmo de Caxias do Sul
+Bento Gonçalves;2030;4;Apartamento;8654;7845;9876;10609;hipótese: mesmo ritmo de Caxias do Sul
+Bento Gonçalves;2031;5;Apartamento;8654;7749;10021;11163;hipótese: mesmo ritmo de Caxias do Sul
+Canela;2026;0;Apartamento;12631;12631;12631;12631;hipótese: mesmo ritmo de Caxias do Sul
+Canela;2027;1;Apartamento;12631;12290;13146;13291;hipótese: mesmo ritmo de Caxias do Sul
+Canela;2028;2;Apartamento;12631;11949;13661;13985;hipótese: mesmo ritmo de Caxias do Sul
+Canela;2029;3;Apartamento;12631;11608;14176;14715;hipótese: mesmo ritmo de Caxias do Sul
+Canela;2030;4;Apartamento;12631;11450;14415;15484;hipótese: mesmo ritmo de Caxias do Sul
+Canela;2031;5;Apartamento;12631;11310;14626;16293;hipótese: mesmo ritmo de Caxias do Sul
+Carlos Barbosa;2026;0;Apartamento;6713;6713;6713;6713;hipótese: mesmo ritmo de Caxias do Sul
+Carlos Barbosa;2027;1;Apartamento;6713;6532;6987;7064;hipótese: mesmo ritmo de Caxias do Sul
+Carlos Barbosa;2028;2;Apartamento;6713;6350;7260;7433;hipótese: mesmo ritmo de Caxias do Sul
+Carlos Barbosa;2029;3;Apartamento;6713;6169;7534;7821;hipótese: mesmo ritmo de Caxias do Sul
+Carlos Barbosa;2030;4;Apartamento;6713;6085;7661;8229;hipótese: mesmo ritmo de Caxias do Sul
+Carlos Barbosa;2031;5;Apartamento;6713;6011;7773;8659;hipótese: mesmo ritmo de Caxias do Sul
+Caxias do Sul;2026;0;Apartamento;6127;6127;6127;6127;histórico próprio (FipeZap)
+Caxias do Sul;2027;1;Apartamento;6127;5962;6377;6447;histórico próprio (FipeZap)
+Caxias do Sul;2028;2;Apartamento;6127;5796;6627;6784;histórico próprio (FipeZap)
+Caxias do Sul;2029;3;Apartamento;6127;5631;6877;7138;histórico próprio (FipeZap)
+Caxias do Sul;2030;4;Apartamento;6127;5554;6992;7511;histórico próprio (FipeZap)
+Caxias do Sul;2031;5;Apartamento;6127;5486;7095;7903;histórico próprio (FipeZap)
+Farroupilha;2026;0;Apartamento;6528;6528;6528;6528;hipótese: mesmo ritmo de Caxias do Sul
+Farroupilha;2027;1;Apartamento;6528;6351;6794;6868;hipótese: mesmo ritmo de Caxias do Sul
+Farroupilha;2028;2;Apartamento;6528;6175;7060;7227;hipótese: mesmo ritmo de Caxias do Sul
+Farroupilha;2029;3;Apartamento;6528;5999;7326;7605;hipótese: mesmo ritmo de Caxias do Sul
+Farroupilha;2030;4;Apartamento;6528;5917;7450;8002;hipótese: mesmo ritmo de Caxias do Sul
+Farroupilha;2031;5;Apartamento;6528;5845;7558;8420;hipótese: mesmo ritmo de Caxias do Sul
+Flores da Cunha;2026;0;Apartamento;7033;7033;7033;7033;hipótese: mesmo ritmo de Caxias do Sul
+Flores da Cunha;2027;1;Apartamento;7033;6843;7320;7400;hipótese: mesmo ritmo de Caxias do Sul
+Flores da Cunha;2028;2;Apartamento;7033;6653;7607;7787;hipótese: mesmo ritmo de Caxias do Sul
+Flores da Cunha;2029;3;Apartamento;7033;6463;7893;8194;hipótese: mesmo ritmo de Caxias do Sul
+Flores da Cunha;2030;4;Apartamento;7033;6375;8026;8622;hipótese: mesmo ritmo de Caxias do Sul
+Flores da Cunha;2031;5;Apartamento;7033;6298;8144;9072;hipótese: mesmo ritmo de Caxias do Sul
+Garibaldi;2026;0;Apartamento;7112;7112;7112;7112;hipótese: mesmo ritmo de Caxias do Sul
+Garibaldi;2027;1;Apartamento;7112;6920;7402;7483;hipótese: mesmo ritmo de Caxias do Sul
+Garibaldi;2028;2;Apartamento;7112;6728;7692;7874;hipótese: mesmo ritmo de Caxias do Sul
+Garibaldi;2029;3;Apartamento;7112;6536;7982;8286;hipótese: mesmo ritmo de Caxias do Sul
+Garibaldi;2030;4;Apartamento;7112;6447;8117;8718;hipótese: mesmo ritmo de Caxias do Sul
+Garibaldi;2031;5;Apartamento;7112;6368;8235;9174;hipótese: mesmo ritmo de Caxias do Sul
+Gramado;2026;0;Apartamento;16134;16134;16134;16134;hipótese: mesmo ritmo de Caxias do Sul
+Gramado;2027;1;Apartamento;16134;15699;16792;16977;hipótese: mesmo ritmo de Caxias do Sul
+Gramado;2028;2;Apartamento;16134;15263;17450;17864;hipótese: mesmo ritmo de Caxias do Sul
+Gramado;2029;3;Apartamento;16134;14828;18108;18797;hipótese: mesmo ritmo de Caxias do Sul
+Gramado;2030;4;Apartamento;16134;14625;18414;19779;hipótese: mesmo ritmo de Caxias do Sul
+Gramado;2031;5;Apartamento;16134;14447;18683;20812;hipótese: mesmo ritmo de Caxias do Sul
+Nova Petrópolis;2026;0;Apartamento;8380;8380;8380;8380;hipótese: mesmo ritmo de Caxias do Sul
+Nova Petrópolis;2027;1;Apartamento;8380;8154;8722;8818;hipótese: mesmo ritmo de Caxias do Sul
+Nova Petrópolis;2028;2;Apartamento;8380;7928;9064;9279;hipótese: mesmo ritmo de Caxias do Sul
+Nova Petrópolis;2029;3;Apartamento;8380;7702;9406;9764;hipótese: mesmo ritmo de Caxias do Sul
+Nova Petrópolis;2030;4;Apartamento;8380;7597;9564;10274;hipótese: mesmo ritmo de Caxias do Sul
+Nova Petrópolis;2031;5;Apartamento;8380;7504;9704;10810;hipótese: mesmo ritmo de Caxias do Sul

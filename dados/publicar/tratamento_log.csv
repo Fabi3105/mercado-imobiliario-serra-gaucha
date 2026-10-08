@@ -1,0 +1,8 @@
+﻿etapa;linhas
+0. base bruta;40244
+1. cidade igual à pesquisada;27319
+2. só residenciais (apto, casa, terreno);27055
+3a. com preço e área;25922
+3b. dentro dos limites plausíveis;25391
+4. sem os 1% extremos de R$/m² por cidade e tipo;24869
+5. sem anúncios repetidos;22022

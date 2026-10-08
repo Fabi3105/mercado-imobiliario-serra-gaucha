@@ -1,0 +1,10 @@
+Painel de imóveis da Serra em Power BI (formato de projeto .pbip)
+
+1. Descompacte esta pasta (Imoveis_Serra_PBIP) dentro de D:\Claude Code\Estudo_Imoveis_Serra.
+2. Dê dois cliques em Imoveis_Serra.pbip no Power BI Desktop e clique em Atualizar.
+3. Se a pasta do estudo estiver em outro lugar: Página Inicial > Transformar dados > Editar parâmetros >
+   PastaDados, coloque o caminho da pasta Estudo_Imoveis_Serra (a que tem a subpasta "dados") e Atualize.
+4. Para ter um .pbix: Arquivo > Salvar como > tipo "Arquivo do Power BI (.pbix)".
+
+Conferência: sem filtros, Anúncios = 22.022. Apartamento em Caxias do Sul: R$/m² mediano = 6.127.
+O .pbix guarda a base de anúncios dentro dele; pelo LEIA-ME do estudo, não publique o .pbix, só imagens do painel.

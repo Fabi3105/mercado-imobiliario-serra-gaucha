@@ -1,0 +1,408 @@
+﻿cidade;bairro;categoria;imoveis;preco_m2_mediana;preco_m2_p25;preco_m2_p75;preco_mediano;area_mediana
+Bento Gonçalves;Barracão;Terreno;24;643,0;476,0;682,0;222500,0;322,0
+Bento Gonçalves;Borgo;Apartamento;120;7896,0;6412,0;8940,0;508214,0;67,0
+Bento Gonçalves;Borgo;Casa;14;5584,0;4183,0;6446,0;964000,0;186,0
+Bento Gonçalves;Borgo;Terreno;18;968,0;843,0;1097,0;385500,0;404,0
+Bento Gonçalves;Botafogo;Apartamento;110;9125,0;7926,0;10547,0;987000,0;114,0
+Bento Gonçalves;Caminho da Eulália;Casa;13;6253,0;5382,0;6944,0;499000,0;70,0
+Bento Gonçalves;Caminho da Eulália;Terreno;17;662,0;563,0;795,0;180000,0;240,0
+Bento Gonçalves;Centro;Apartamento;286;9481,0;7226,0;11224,0;960000,0;100,0
+Bento Gonçalves;Cidade Alta;Apartamento;221;9692,0;7594,0;12353,0;1221613,0;131,0
+Bento Gonçalves;Fenavinho;Apartamento;10;7406,0;7218,0;8474,0;405000,0;53,0
+Bento Gonçalves;Fátima;Casa;13;4233,0;3479,0;5079,0;800000,0;189,0
+Bento Gonçalves;Humaitá;Apartamento;120;8640,0;7545,0;9339,0;682500,0;82,0
+Bento Gonçalves;Imigrante;Apartamento;99;10803,0;9065,0;12242,0;1527000,0;155,0
+Bento Gonçalves;Jardim Glória;Casa;13;5403,0;4127,0;10159,0;1399900,0;314,0
+Bento Gonçalves;Licorsul;Casa;10;6092,0;3939,0;6462,0;867500,0;138,0
+Bento Gonçalves;Maria Goretti;Apartamento;52;7558,0;6192,0;8976,0;654500,0;93,0
+Bento Gonçalves;Ouro Verde;Casa;13;4062,0;3315,0;5300,0;650000,0;150,0
+Bento Gonçalves;Planalto;Apartamento;18;10252,0;8962,0;11976,0;1029000,0;91,0
+Bento Gonçalves;Progresso;Apartamento;128;7682,0;6461,0;8429,0;506000,0;73,0
+Bento Gonçalves;Progresso;Terreno;11;1121,0;872,0;1267,0;425100,0;383,0
+Bento Gonçalves;Santa Helena;Casa;25;5208,0;3923,0;6400,0;930500,0;163,0
+Bento Gonçalves;Santa Helena;Terreno;23;709,0;600,0;792,0;240000,0;363,0
+Bento Gonçalves;Santa Marta;Casa;11;5137,0;4734,0;6322,0;1150000,0;200,0
+Bento Gonçalves;Santa Rita;Apartamento;34;7901,0;6277,0;8509,0;480145,0;63,0
+Bento Gonçalves;Santa Rita;Casa;15;6014,0;5208,0;7413,0;1250000,0;206,0
+Bento Gonçalves;Santo Antão;Casa;33;8244,0;6802,0;10244,0;1386740,0;200,0
+Bento Gonçalves;Santo Antão;Terreno;83;712,0;540,0;941,0;390000,0;525,0
+Bento Gonçalves;São Bento;Apartamento;70;11114,0;10140,0;12438,0;2011892,0;151,0
+Bento Gonçalves;São Francisco;Apartamento;222;8933,0;7467,0;10224,0;811000,0;90,0
+Bento Gonçalves;São Francisco;Casa;10;4884,0;4626,0;5306,0;920000,0;202,0
+Bento Gonçalves;São Roque;Apartamento;28;5890,0;5064,0;6917,0;404500,0;61,0
+Bento Gonçalves;São Roque;Casa;41;6967,0;5479,0;8167,0;950000,0;134,0
+Bento Gonçalves;São Roque;Terreno;40;699,0;551,0;963,0;252500,0;378,0
+Bento Gonçalves;São Valentin;Terreno;42;549,0;492,0;600,0;244660,0;436,0
+Bento Gonçalves;Universitário;Apartamento;69;7317,0;6499,0;9084,0;520000,0;74,0
+Bento Gonçalves;Universitário;Casa;21;6125,0;5259,0;6869,0;700000,0;150,0
+Bento Gonçalves;Universitário;Terreno;26;828,0;685,0;1036,0;329950,0;424,0
+Bento Gonçalves;Vale dos Vinhedos (Distrito);Terreno;27;649,0;225,0;880,0;997000,0;2400,0
+Bento Gonçalves;Verona;Apartamento;15;6300,0;5680,0;7240,0;299999,0;50,0
+Bento Gonçalves;Verona;Terreno;18;948,0;846,0;1097,0;362500,0;360,0
+Canela;Alpes Verdes;Casa;23;8220,0;6260,0;9204,0;1385000,0;158,0
+Canela;Alpes Verdes;Terreno;24;486,0;398,0;659,0;460000,0;926,0
+Canela;Bosque Sinoserra;Terreno;12;888,0;705,0;949,0;635000,0;736,0
+Canela;Canelinha;Apartamento;11;9163,0;6388,0;9554,0;420000,0;57,0
+Canela;Canelinha;Terreno;12;724,0;695,0;1568,0;875000,0;2119,0
+Canela;Centro;Apartamento;846;13138,0;10936,0;15751,0;963070,0;78,0
+Canela;Centro;Casa;209;8631,0;6764,0;11150,0;1200000,0;159,0
+Canela;Centro;Terreno;76;1924,0;1115,0;2500,0;1500500,0;778,0
+Canela;Eugênio Ferreira;Apartamento;11;9018,0;6736,0;9521,0;489000,0;59,0
+Canela;Eugênio Ferreira;Casa;22;7360,0;5302,0;9413,0;777000,0;106,0
+Canela;Eugênio Ferreira;Terreno;14;1331,0;960,0;1548,0;437500,0;465,0
+Canela;Jardim Mariana;Terreno;13;1229,0;973,0;1314,0;566874,0;443,0
+Canela;Jardim dos Pinheiros II;Casa;19;11211,0;7971,0;11958,0;1818900,0;180,0
+Canela;Laje de Pedra;Apartamento;21;19022,0;14375,0;23846,0;2100000,0;108,0
+Canela;Laje de Pedra;Casa;45;11425,0;8740,0;16450,0;3100000,0;192,0
+Canela;Maggi;Apartamento;17;9575,0;8318,0;10600,0;742000,0;71,0
+Canela;Maggi;Casa;44;6842,0;5796,0;8860,0;850000,0;137,0
+Canela;Maggi;Terreno;15;946,0;790,0;1522,0;799000,0;886,0
+Canela;Palace Hotel;Casa;54;7702,0;5117,0;9312,0;969500,0;150,0
+Canela;Palace Hotel;Terreno;20;1144,0;841,0;1334,0;495000,0;487,0
+Canela;Parque das Hortênsias;Casa;58;9344,0;7774,0;11311,0;1194500,0;120,0
+Canela;Pinheiro Grosso;Casa;17;12144,0;11255,0;13401,0;3600000,0;321,0
+Canela;Pinheiro Grosso;Terreno;46;907,0;796,0;1045,0;650500,0;734,0
+Canela;Quinta da Serra;Apartamento;24;11289,0;9858,0;13800,0;900000,0;79,0
+Canela;Quinta da Serra;Casa;36;9504,0;8027,0;11100,0;2432500,0;272,0
+Canela;Quinta da Serra;Terreno;12;1119,0;893,0;1286,0;865500,0;746,0
+Canela;Reserva da Serra;Casa;29;12085,0;10360,0;14458,0;3500000,0;292,0
+Canela;Reserva da Serra;Terreno;11;1877,0;1794,0;1947,0;1390000,0;784,0
+Canela;SESI;Casa;12;7227,0;5548,0;8492,0;955500,0;149,0
+Canela;SESI;Terreno;15;1884,0;1056,0;1911,0;455800,0;369,0
+Canela;Santa Terezinha;Apartamento;18;11226,0;9994,0;12026,0;842500,0;81,0
+Canela;Santa Terezinha;Casa;35;9205,0;7072,0;10389,0;1740000,0;184,0
+Canela;Santa Terezinha;Terreno;15;901,0;835,0;994,0;395959,0;451,0
+Canela;Suzana;Apartamento;33;11789,0;10289,0;12790,0;791000,0;75,0
+Canela;Suzana;Casa;115;9403,0;7487,0;11192,0;1370000,0;150,0
+Canela;Suzana;Terreno;19;854,0;542,0;1077,0;797000,0;1134,0
+Canela;São José;Apartamento;33;12535,0;10748,0;14946,0;988000,0;77,0
+Canela;São José;Casa;43;8297,0;5470,0;10808,0;1350000,0;221,0
+Canela;São Lucas;Apartamento;17;12356,0;10771,0;14912,0;742000,0;60,0
+Canela;São Luiz;Apartamento;13;6512,0;6103,0;7514,0;380000,0;53,0
+Canela;São Luiz;Casa;11;5256,0;3585,0;8757,0;636000,0;112,0
+Canela;Ulisses de Abreu;Apartamento;11;6488,0;6116,0;6836,0;342000,0;50,0
+Canela;Vila Boeira;Casa;14;6812,0;3806,0;12813,0;930000,0;150,0
+Canela;Vila Dante;Casa;12;8110,0;5960,0;10553,0;1080106,0;215,0
+Canela;Vila Dante;Terreno;10;1092,0;912,0;1152,0;302500,0;300,0
+Canela;Vila Luiza;Apartamento;36;11772,0;9356,0;13615,0;900000,0;75,0
+Canela;Vila Luiza;Casa;42;8880,0;7216,0;10609,0;1326000,0;144,0
+Canela;Vila Suica;Apartamento;26;13105,0;11430,0;15579,0;695000,0;56,0
+Canela;Vila Suica;Casa;17;7513,0;6684,0;11167,0;1800000,0;248,0
+Carlos Barbosa;Centro;Apartamento;35;7202,0;6124,0;7742,0;690000,0;106,0
+Carlos Barbosa;Planalto;Apartamento;10;5739,0;5554,0;7207,0;558965,0;85,0
+Carlos Barbosa;Triângulo;Apartamento;14;7314,0;6186,0;7967,0;527500,0;80,0
+Caxias do Sul;Ana Rech;Apartamento;41;4736,0;4184,0;5278,0;320000,0;70,0
+Caxias do Sul;Ana Rech;Casa;95;5000,0;4144,0;5937,0;640000,0;126,0
+Caxias do Sul;Ana Rech;Terreno;50;682,0;481,0;794,0;310000,0;451,0
+Caxias do Sul;Bela Vista;Apartamento;152;5532,0;4736,0;6203,0;357500,0;64,0
+Caxias do Sul;Bela Vista;Casa;178;4610,0;3618,0;5650,0;830000,0;180,0
+Caxias do Sul;Bela Vista;Terreno;63;742,0;594,0;1186,0;400000,0;429,0
+Caxias do Sul;Centro;Apartamento;313;5611,0;4382,0;8205,0;490000,0;86,0
+Caxias do Sul;Centro;Casa;14;5370,0;4051,0;6576,0;1520000,0;224,0
+Caxias do Sul;Centro;Terreno;36;2778,0;2124,0;3724,0;1675000,0;484,0
+Caxias do Sul;Charqueadas;Apartamento;72;5326,0;4595,0;6341,0;425000,0;75,0
+Caxias do Sul;Charqueadas;Casa;102;3764,0;3154,0;4917,0;387500,0;105,0
+Caxias do Sul;Charqueadas;Terreno;35;639,0;507,0;886,0;250000,0;394,0
+Caxias do Sul;Cidade Nova;Apartamento;42;4946,0;4406,0;5573,0;275000,0;57,0
+Caxias do Sul;Cidade Nova;Casa;79;3881,0;3313,0;4762,0;549000,0;121,0
+Caxias do Sul;Cidade Nova;Terreno;23;556,0;466,0;720,0;220000,0;374,0
+Caxias do Sul;Cinqüentenário;Apartamento;76;6130,0;4645,0;7368,0;450000,0;82,0
+Caxias do Sul;Cinqüentenário;Casa;106;5352,0;3949,0;6970,0;1590000,0;331,0
+Caxias do Sul;Cinqüentenário;Terreno;38;1376,0;1007,0;2071,0;725500,0;436,0
+Caxias do Sul;Colina Sorriso;Apartamento;106;5752,0;5052,0;6811,0;550000,0;92,0
+Caxias do Sul;Colina Sorriso;Casa;137;5312,0;4323,0;6619,0;940000,0;203,0
+Caxias do Sul;Colina Sorriso;Terreno;35;991,0;860,0;1126,0;435000,0;423,0
+Caxias do Sul;Colina do Sol;Apartamento;14;4011,0;3456,0;4979,0;250000,0;51,0
+Caxias do Sul;Colina do Sol;Casa;10;4323,0;4030,0;4976,0;397750,0;79,0
+Caxias do Sul;Cristo Redentor;Apartamento;129;8310,0;6452,0;10930,0;1068822,0;111,0
+Caxias do Sul;Cristo Redentor;Casa;20;4284,0;3288,0;4739,0;600000,0;208,0
+Caxias do Sul;Cristo Redentor;Terreno;21;1621,0;1277,0;2335,0;920000,0;517,0
+Caxias do Sul;Cruzeiro;Apartamento;75;5890,0;5001,0;7190,0;470000,0;74,0
+Caxias do Sul;Cruzeiro;Casa;48;3806,0;2997,0;6039,0;790000,0;200,0
+Caxias do Sul;Cruzeiro;Terreno;33;804,0;622,0;1452,0;750000,0;899,0
+Caxias do Sul;De Lazzer;Apartamento;49;5820,0;5309,0;6124,0;365000,0;57,0
+Caxias do Sul;De Lazzer;Casa;15;4439,0;3868,0;4584,0;900000,0;223,0
+Caxias do Sul;De Zorzi;Apartamento;18;4568,0;4084,0;4678,0;193500,0;41,0
+Caxias do Sul;De Zorzi;Casa;10;4663,0;3481,0;4950,0;722500,0;202,0
+Caxias do Sul;De Zorzi;Terreno;10;576,0;535,0;694,0;258000,0;412,0
+Caxias do Sul;Desvio Rizzo;Apartamento;187;5240,0;4561,0;6012,0;299000,0;58,0
+Caxias do Sul;Desvio Rizzo;Casa;249;4506,0;3872,0;5700,0;460000,0;106,0
+Caxias do Sul;Desvio Rizzo;Terreno;87;613,0;476,0;843,0;245000,0;402,0
+Caxias do Sul;Diamantino;Apartamento;32;4680,0;4359,0;5298,0;252500,0;50,0
+Caxias do Sul;Diamantino;Casa;16;3393,0;2316,0;4793,0;700000,0;240,0
+Caxias do Sul;Diamantino;Terreno;30;651,0;523,0;757,0;289500,0;383,0
+Caxias do Sul;Esplanada;Apartamento;43;4311,0;3804,0;4856,0;270000,0;56,0
+Caxias do Sul;Esplanada;Casa;89;3836,0;3056,0;5091,0;480000,0;127,0
+Caxias do Sul;Esplanada;Terreno;39;567,0;420,0;686,0;200000,0;360,0
+Caxias do Sul;Exposição;Apartamento;342;10122,0;6706,0;12620,0;1620500,0;171,0
+Caxias do Sul;Exposição;Casa;10;3600,0;3180,0;4814,0;810000,0;200,0
+Caxias do Sul;Exposição;Terreno;23;3333,0;2994,0;3792,0;1300000,0;417,0
+Caxias do Sul;Floresta;Apartamento;18;4364,0;4102,0;5401,0;384500,0;86,0
+Caxias do Sul;Floresta;Casa;22;4260,0;3645,0;4703,0;620000,0;151,0
+Caxias do Sul;Forqueta;Casa;21;4444,0;3438,0;5844,0;450000,0;100,0
+Caxias do Sul;Forqueta;Terreno;15;406,0;252,0;550,0;380000,0;1342,0
+Caxias do Sul;Fátima;Casa;10;3616,0;3245,0;4020,0;570000,0;171,0
+Caxias do Sul;Interlagos;Apartamento;59;5667,0;4990,0;6976,0;345000,0;59,0
+Caxias do Sul;Interlagos;Casa;35;7500,0;4720,0;9128,0;3350000,0;390,0
+Caxias do Sul;Interlagos;Terreno;22;1433,0;1414,0;1812,0;817450,0;536,0
+Caxias do Sul;Jardelino Ramos;Apartamento;14;4871,0;4088,0;5384,0;290000,0;65,0
+Caxias do Sul;Jardim América;Apartamento;136;6358,0;4960,0;7368,0;790000,0;116,0
+Caxias do Sul;Jardim América;Casa;52;5406,0;3940,0;5948,0;885000,0;177,0
+Caxias do Sul;Jardim América;Terreno;20;1192,0;1094,0;1370,0;585000,0;481,0
+Caxias do Sul;Jardim Eldorado;Apartamento;59;5135,0;4507,0;5730,0;350000,0;65,0
+Caxias do Sul;Jardim Eldorado;Casa;56;5228,0;3430,0;9690,0;1224500,0;294,0
+Caxias do Sul;Jardim Eldorado;Terreno;33;776,0;671,0;867,0;650000,0;985,0
+Caxias do Sul;Jardim Iracema;Casa;29;3593,0;2402,0;4308,0;490000,0;146,0
+Caxias do Sul;Jardim das Hortências;Casa;12;3214,0;2687,0;4080,0;800000,0;191,0
+Caxias do Sul;Jardim do Shopping;Apartamento;33;6064,0;5231,0;6892,0;510000,0;80,0
+Caxias do Sul;Jardim do Shopping;Terreno;14;1306,0;913,0;1440,0;545000,0;438,0
+Caxias do Sul;Kayser;Apartamento;30;5339,0;4443,0;5791,0;332500,0;61,0
+Caxias do Sul;Kayser;Casa;67;4599,0;3567,0;5626,0;650000,0;129,0
+Caxias do Sul;Kayser;Terreno;25;948,0;933,0;1215,0;370000,0;373,0
+Caxias do Sul;Linha 40;Casa;19;6624,0;6090,0;7686,0;2300000,0;325,0
+Caxias do Sul;Linha 40;Terreno;25;536,0;322,0;597,0;764000,0;1482,0
+Caxias do Sul;Lurdes;Apartamento;20;5478,0;4536,0;8098,0;414995,0;87,0
+Caxias do Sul;Madureira;Apartamento;267;8584,0;6674,0;10693,0;1000000,0;114,0
+Caxias do Sul;Madureira;Casa;19;4891,0;3822,0;5162,0;1250000,0;302,0
+Caxias do Sul;Madureira;Terreno;13;1927,0;1320,0;1989,0;799000,0;410,0
+Caxias do Sul;Marechal Floriano;Apartamento;13;4626,0;4182,0;5781,0;361000,0;64,0
+Caxias do Sul;Marechal Floriano;Casa;15;4487,0;3428,0;5470,0;699000,0;156,0
+Caxias do Sul;Marechal Floriano;Terreno;21;1106,0;971,0;1278,0;820000,0;853,0
+Caxias do Sul;Medianeira;Apartamento;44;4876,0;4132,0;5531,0;444500,0;92,0
+Caxias do Sul;Medianeira;Casa;18;3096,0;2745,0;4112,0;649000,0;236,0
+Caxias do Sul;Medianeira;Terreno;10;1166,0;866,0;1325,0;537350,0;445,0
+Caxias do Sul;Monte Bérico;Casa;17;6714,0;5739,0;7019,0;999000,0;174,0
+Caxias do Sul;Monte Bérico;Terreno;45;593,0;558,0;694,0;217000,0;360,0
+Caxias do Sul;Morada dos Alpes;Apartamento;19;4909,0;4419,0;5458,0;260000,0;53,0
+Caxias do Sul;Morada dos Alpes;Casa;13;5065,0;3386,0;5102,0;315000,0;65,0
+Caxias do Sul;Morada dos Alpes;Terreno;11;653,0;548,0;785,0;326000,0;594,0
+Caxias do Sul;Nossa Senhora da Saúde;Apartamento;66;5589,0;4818,0;6787,0;423500,0;78,0
+Caxias do Sul;Nossa Senhora da Saúde;Casa;144;6922,0;5186,0;8669,0;1697500,0;228,0
+Caxias do Sul;Nossa Senhora da Saúde;Terreno;67;962,0;750,0;1168,0;478912,0;420,0
+Caxias do Sul;Nossa Senhora das Graças;Apartamento;79;4383,0;4050,0;4973,0;225000,0;47,0
+Caxias do Sul;Nossa Senhora das Graças;Casa;53;4599,0;4156,0;5318,0;395000,0;81,0
+Caxias do Sul;Nossa Senhora das Graças;Terreno;77;488,0;400,0;575,0;170000,0;360,0
+Caxias do Sul;Nossa Senhora de Fátima;Apartamento;11;5198,0;4856,0;5398,0;259900,0;53,0
+Caxias do Sul;Nossa Senhora de Fátima;Casa;44;4156,0;2961,0;4748,0;707500,0;171,0
+Caxias do Sul;Nossa Senhora de Fátima;Terreno;14;758,0;653,0;915,0;340000,0;382,0
+Caxias do Sul;Nossa Senhora de Lourdes;Apartamento;258;6749,0;4817,0;8850,0;692454,0;102,0
+Caxias do Sul;Nossa Senhora de Lourdes;Casa;35;5172,0;3160,0;8074,0;1290000,0;272,0
+Caxias do Sul;Nossa Senhora de Lourdes;Terreno;44;2725,0;2121,0;3125,0;1750000,0;662,0
+Caxias do Sul;Nossa Senhora do Rosário;Apartamento;71;4836,0;4400,0;5644,0;250000,0;50,0
+Caxias do Sul;Nossa Senhora do Rosário;Casa;24;4684,0;3016,0;5143,0;322500,0;75,0
+Caxias do Sul;Nossa Senhora do Rosário;Terreno;12;604,0;536,0;691,0;585000,0;1092,0
+Caxias do Sul;Panazzolo;Apartamento;361;8462,0;6667,0;10595,0;888000,0;102,0
+Caxias do Sul;Panazzolo;Casa;41;4732,0;3538,0;6939,0;1150000,0;220,0
+Caxias do Sul;Panazzolo;Terreno;37;1881,0;1490,0;2500,0;1180000,0;570,0
+Caxias do Sul;Parada Cristal;Terreno;22;426,0;386,0;480,0;156000,0;310,0
+Caxias do Sul;Parque Oasis;Apartamento;11;5051,0;4354,0;5840,0;240000,0;47,0
+Caxias do Sul;Pedancino;Casa;31;8374,0;6470,0;8942,0;3500000,0;442,0
+Caxias do Sul;Pedancino;Terreno;55;733,0;502,0;877,0;620000,0;751,0
+Caxias do Sul;Petrópolis;Apartamento;103;8250,0;6052,0;12258,0;719000,0;92,0
+Caxias do Sul;Petrópolis;Casa;45;4888,0;4170,0;5444,0;1490000,0;322,0
+Caxias do Sul;Petrópolis;Terreno;23;1435,0;1112,0;1642,0;658000,0;480,0
+Caxias do Sul;Pio X;Apartamento;170;5932,0;4631,0;7307,0;649950,0;99,0
+Caxias do Sul;Pio X;Casa;25;4688,0;3261,0;6114,0;900000,0;180,0
+Caxias do Sul;Pio X;Terreno;30;2294,0;1776,0;2860,0;1450000,0;634,0
+Caxias do Sul;Pioneiro;Casa;23;3875,0;2298,0;6666,0;400000,0;165,0
+Caxias do Sul;Planalto;Apartamento;18;5630,0;4903,0;6056,0;385000,0;70,0
+Caxias do Sul;Planalto;Casa;41;3641,0;2745,0;4896,0;545000,0;144,0
+Caxias do Sul;Planalto;Terreno;11;637,0;561,0;767,0;330000,0;410,0
+Caxias do Sul;Presidente Vargas;Apartamento;24;5348,0;4794,0;6158,0;335000,0;62,0
+Caxias do Sul;Presidente Vargas;Casa;19;4153,0;3242,0;4561,0;490000,0;125,0
+Caxias do Sul;Presidente Vargas;Terreno;10;926,0;845,0;1170,0;417500,0;436,0
+Caxias do Sul;Rio Branco;Apartamento;253;6849,0;5299,0;7625,0;600000,0;94,0
+Caxias do Sul;Rio Branco;Casa;107;3520,0;2684,0;4908,0;700000,0;200,0
+Caxias do Sul;Rio Branco;Terreno;55;1394,0;916,0;2373,0;585000,0;432,0
+Caxias do Sul;Sagrada Família;Apartamento;65;5578,0;4926,0;7200,0;470000,0;77,0
+Caxias do Sul;Sagrada Família;Casa;43;5097,0;3422,0;5802,0;850000,0;171,0
+Caxias do Sul;Sagrada Família;Terreno;23;1429,0;1204,0;1870,0;800000,0;587,0
+Caxias do Sul;Salgado Filho;Apartamento;47;5000,0;4510,0;5636,0;368000,0;70,0
+Caxias do Sul;Salgado Filho;Casa;75;4423,0;3132,0;5306,0;729000,0;168,0
+Caxias do Sul;Salgado Filho;Terreno;34;743,0;590,0;999,0;334000,0;393,0
+Caxias do Sul;Santa Catarina;Apartamento;198;6018,0;4948,0;7340,0;455000,0;76,0
+Caxias do Sul;Santa Catarina;Casa;133;4855,0;3684,0;7000,0;937000,0;225,0
+Caxias do Sul;Santa Catarina;Terreno;59;1081,0;547,0;1518,0;400000,0;432,0
+Caxias do Sul;Santa Corona;Casa;18;3831,0;3096,0;4832,0;595000,0;180,0
+Caxias do Sul;Santa Corona;Terreno;12;564,0;384,0;674,0;229500,0;505,0
+Caxias do Sul;Santa Lúcia;Apartamento;75;5507,0;4926,0;6300,0;395000,0;69,0
+Caxias do Sul;Santa Lúcia;Casa;68;4878,0;3843,0;5713,0;642500,0;134,0
+Caxias do Sul;Santa Lúcia;Terreno;15;1142,0;920,0;1302,0;850000,0;756,0
+Caxias do Sul;Santo Antônio;Casa;12;3572,0;2017,0;4151,0;450000,0;138,0
+Caxias do Sul;Sanvitto;Apartamento;201;7458,0;6573,0;8400,0;690000,0;90,0
+Caxias do Sul;Sanvitto;Casa;10;4251,0;3884,0;5330,0;1022500,0;266,0
+Caxias do Sul;Sanvitto;Terreno;35;1181,0;1089,0;1329,0;550000,0;420,0
+Caxias do Sul;Serrano;Casa;30;3295,0;2532,0;7083,0;734000,0;263,0
+Caxias do Sul;Serrano;Terreno;18;694,0;540,0;878,0;710000,0;1009,0
+Caxias do Sul;São Caetano;Apartamento;28;4348,0;3682,0;4996,0;250000,0;55,0
+Caxias do Sul;São Caetano;Casa;68;4078,0;3405,0;4726,0;441000,0;113,0
+Caxias do Sul;São Caetano;Terreno;27;564,0;504,0;652,0;210000,0;376,0
+Caxias do Sul;São Ciro;Casa;23;4455,0;3603,0;6948,0;790000,0;261,0
+Caxias do Sul;São Ciro;Terreno;24;624,0;476,0;1117,0;640000,0;1008,0
+Caxias do Sul;São Cristóvão;Casa;10;3242,0;2981,0;5253,0;485000,0;162,0
+Caxias do Sul;São Giácomo;Casa;19;4524,0;3282,0;5804,0;340000,0;75,0
+Caxias do Sul;São Giácomo;Terreno;46;511,0;480,0;600,0;185895,0;392,0
+Caxias do Sul;São José;Apartamento;57;7397,0;6047,0;8130,0;740000,0;99,0
+Caxias do Sul;São José;Casa;15;3951,0;2010,0;4789,0;690000,0;291,0
+Caxias do Sul;São José;Terreno;14;1356,0;910,0;1573,0;657500,0;416,0
+Caxias do Sul;São Leopoldo;Apartamento;87;6923,0;6073,0;8791,0;650000,0;84,0
+Caxias do Sul;São Leopoldo;Casa;30;4136,0;3047,0;4458,0;767000,0;192,0
+Caxias do Sul;São Leopoldo;Terreno;13;1387,0;1085,0;1703,0;620000,0;452,0
+Caxias do Sul;São Luiz;Apartamento;84;5074,0;4452,0;5475,0;332500,0;63,0
+Caxias do Sul;São Luiz;Casa;145;5784,0;4837,0;7288,0;750000,0;130,0
+Caxias do Sul;São Luiz;Terreno;125;538,0;467,0;631,0;227000,0;383,0
+Caxias do Sul;São Pelegrino;Apartamento;194;5566,0;4252,0;8598,0;595000,0;104,0
+Caxias do Sul;São Pelegrino;Casa;18;6313,0;5576,0;9174,0;1400000,0;173,0
+Caxias do Sul;São Pelegrino;Terreno;12;2305,0;2128,0;2804,0;1450000,0;419,0
+Caxias do Sul;São Victor COHAB;Apartamento;17;4493,0;3864,0;5278,0;250000,0;54,0
+Caxias do Sul;São Victor COHAB;Casa;18;2858,0;2008,0;3868,0;455000,0;183,0
+Caxias do Sul;São Victor COHAB;Terreno;12;500,0;408,0;616,0;180000,0;360,0
+Caxias do Sul;São Virgílio;Apartamento;20;5014,0;4311,0;6111,0;312500,0;62,0
+Caxias do Sul;São Virgílio;Casa;51;5576,0;4930,0;6150,0;760000,0;124,0
+Caxias do Sul;São Virgílio;Terreno;24;600,0;496,0;742,0;257000,0;348,0
+Caxias do Sul;Treviso;Apartamento;21;4726,0;4167,0;5193,0;350000,0;75,0
+Caxias do Sul;Universitário;Apartamento;50;7108,0;6048,0;8320,0;650000,0;105,0
+Caxias do Sul;Universitário;Casa;22;3764,0;3354,0;4397,0;650000,0;189,0
+Caxias do Sul;Universitário;Terreno;18;1153,0;941,0;1844,0;710000,0;679,0
+Caxias do Sul;Vila Cristina;Terreno;10;428,0;396,0;528,0;155000,0;360,0
+Caxias do Sul;Vila Verde;Apartamento;94;6114,0;5663,0;6855,0;393500,0;64,0
+Caxias do Sul;Vila Verde;Casa;64;5574,0;4926,0;7282,0;1000000,0;166,0
+Caxias do Sul;Vila Verde;Terreno;22;800,0;746,0;979,0;550000,0;720,0
+Caxias do Sul;Villagio Iguatemi;Apartamento;72;7111,0;6080,0;7626,0;685000,0;95,0
+Caxias do Sul;Villagio Iguatemi;Terreno;11;1749,0;1481,0;1842,0;990000,0;455,0
+Caxias do Sul;Vinhedos;Apartamento;107;5747,0;4954,0;6940,0;439000,0;74,0
+Caxias do Sul;Vinhedos;Casa;57;5195,0;4202,0;5750,0;790000,0;140,0
+Caxias do Sul;Vinhedos;Terreno;24;900,0;777,0;1037,0;371250,0;360,0
+Farroupilha;América;Casa;16;3638,0;3246,0;5084,0;448450,0;128,0
+Farroupilha;América;Terreno;44;436,0;420,0;538,0;188904,0;410,0
+Farroupilha;Bela Vista;Casa;15;4778,0;3238,0;6404,0;585500,0;139,0
+Farroupilha;Bela Vista;Terreno;15;651,0;471,0;693,0;320000,0;576,0
+Farroupilha;Belvedere;Casa;35;5848,0;4993,0;7198,0;554873,0;102,0
+Farroupilha;Centro;Apartamento;96;7947,0;6423,0;9575,0;876726,0;108,0
+Farroupilha;Centro;Casa;12;5208,0;4410,0;6287,0;1242500,0;227,0
+Farroupilha;Imigrante;Apartamento;25;7093,0;6026,0;7500,0;448000,0;73,0
+Farroupilha;Imigrante;Casa;21;5910,0;3978,0;6692,0;870000,0;171,0
+Farroupilha;Imigrante;Terreno;21;787,0;518,0;950,0;360000,0;516,0
+Farroupilha;Monte Pasqual;Apartamento;11;4583,0;4336,0;4826,0;212000,0;47,0
+Farroupilha;Monte Pasqual;Casa;18;4262,0;3180,0;5658,0;650000,0;176,0
+Farroupilha;Monte Pasqual;Terreno;12;458,0;409,0;510,0;190000,0;431,0
+Farroupilha;Monte Verde;Casa;29;4898,0;3929,0;5429,0;380000,0;81,0
+Farroupilha;Monte Verde;Terreno;20;419,0;395,0;518,0;182500,0;410,0
+Farroupilha;Parque;Apartamento;10;6394,0;4953,0;8489,0;552000,0;100,0
+Farroupilha;Pio X;Casa;12;5180,0;4491,0;6340,0;650000,0;111,0
+Farroupilha;Planalto;Apartamento;15;6241,0;5319,0;8670,0;610000,0;107,0
+Farroupilha;Primeiro de Maio;Casa;36;3982,0;3110,0;4592,0;587500,0;143,0
+Farroupilha;Primeiro de Maio;Terreno;10;390,0;304,0;470,0;150000,0;364,0
+Farroupilha;Santa Catarina;Casa;14;6122,0;5430,0;7361,0;409500,0;104,0
+Farroupilha;São Francisco;Casa;32;6036,0;4676,0;7026,0;485000,0;108,0
+Farroupilha;São Francisco;Terreno;27;617,0;492,0;686,0;258000,0;416,0
+Farroupilha;São José;Casa;10;6408,0;5352,0;6914,0;687750,0;96,0
+Farroupilha;São Luiz;Apartamento;10;8788,0;7888,0;9150,0;755000,0;89,0
+Farroupilha;São Luiz;Casa;24;5508,0;5081,0;7056,0;1040000,0;200,0
+Farroupilha;São Luiz;Terreno;17;875,0;649,0;972,0;350000,0;390,0
+Flores da Cunha;Centro;Apartamento;31;6853,0;6156,0;7777,0;659000,0;102,0
+Flores da Cunha;Centro;Terreno;11;660,0;530,0;992,0;245000,0;325,0
+Flores da Cunha;São Gotardo (Distrito);Terreno;19;441,0;406,0;475,0;180000,0;417,0
+Flores da Cunha;União;Apartamento;12;7268,0;6600,0;9791,0;488856,0;74,0
+Garibaldi;Alfândega;Terreno;16;568,0;511,0;672,0;244500,0;390,0
+Garibaldi;Borghetto;Terreno;11;421,0;324,0;539,0;559000,0;1144,0
+Garibaldi;Centro;Apartamento;120;7128,0;5916,0;8769,0;691950,0;101,0
+Garibaldi;Centro;Terreno;18;656,0;505,0;847,0;450000,0;488,0
+Garibaldi;Champanhe;Apartamento;16;7917,0;6424,0;8936,0;722500,0;102,0
+Garibaldi;Chácaras;Apartamento;12;6206,0;5707,0;7148,0;350000,0;61,0
+Garibaldi;Chácaras;Casa;19;5530,0;3849,0;7396,0;690000,0;150,0
+Garibaldi;Chácaras;Terreno;11;521,0;464,0;602,0;218000,0;366,0
+Garibaldi;Ferroviário;Terreno;10;676,0;592,0;751,0;325000,0;450,0
+Garibaldi;Garibaldina;Terreno;18;554,0;357,0;598,0;459611,0;975,0
+Garibaldi;Santa Terezinha;Terreno;17;586,0;549,0;736,0;339900,0;556,0
+Garibaldi;São Francisco;Casa;18;5903,0;4313,0;7229,0;727500,0;160,0
+Garibaldi;Tamandaré;Terreno;15;680,0;602,0;704,0;750000,0;1022,0
+Gramado;Alphaville;Apartamento;10;15032,0;13344,0;16463,0;1284607,0;83,0
+Gramado;Alphaville;Casa;12;15736,0;13247,0;18280,0;5500000,0;351,0
+Gramado;Alphaville;Terreno;10;2160,0;2101,0;2304,0;1391500,0;636,0
+Gramado;Aspen Mountain;Casa;67;17850,0;15188,0;20282,0;8800000,0;508,0
+Gramado;Aspen Mountain;Terreno;16;3135,0;2710,0;3804,0;2750000,0;812,0
+Gramado;Avenida Central;Apartamento;144;15074,0;13064,0;17132,0;1199800,0;79,0
+Gramado;Avenida Central;Casa;11;9231,0;8423,0;10788,0;1800000,0;160,0
+Gramado;Bavaria;Apartamento;195;19241,0;16147,0;23074,0;1648500,0;86,0
+Gramado;Bavaria;Casa;25;14945,0;10034,0;16667,0;4792500,0;388,0
+Gramado;Bavaria;Terreno;13;2500,0;2152,0;2517,0;1490000,0;635,0
+Gramado;Belvedere;Apartamento;41;19343,0;14227,0;27778,0;2300000,0;111,0
+Gramado;Carazal;Casa;11;16125,0;13466,0;18250,0;8800000,0;470,0
+Gramado;Carazal;Terreno;12;888,0;432,0;2583,0;600000,0;949,0
+Gramado;Carniel;Apartamento;171;15321,0;13426,0;17316,0;1214366,0;82,0
+Gramado;Carniel;Casa;50;11098,0;9838,0;12949,0;2595000,0;228,0
+Gramado;Carniel;Terreno;28;1416,0;1241,0;1622,0;640000,0;450,0
+Gramado;Centro;Apartamento;878;17992,0;14381,0;22449,0;1649500,0;85,0
+Gramado;Centro;Casa;60;10890,0;9130,0;13751,0;2815000,0;242,0
+Gramado;Centro;Terreno;13;1260,0;890,0;2771,0;2120000,0;861,0
+Gramado;Dutra;Apartamento;64;13736,0;11848,0;16760,0;844500,0;63,0
+Gramado;Dutra;Casa;11;8126,0;6837,0;9316,0;990000,0;140,0
+Gramado;Dutra;Terreno;12;988,0;787,0;1065,0;444500,0;450,0
+Gramado;Floresta;Apartamento;130;15018,0;12794,0;17486,0;1150000,0;74,0
+Gramado;Floresta;Casa;20;12334,0;9976,0;16135,0;2085000,0;140,0
+Gramado;Floresta;Terreno;10;2736,0;1395,0;4100,0;1450000,0;805,0
+Gramado;Ipê Amarelo;Apartamento;18;14469,0;12359,0;17510,0;1276330,0;90,0
+Gramado;Ipê Amarelo;Casa;28;9506,0;6215,0;10409,0;1905000,0;260,0
+Gramado;Jardim Bela Vista;Apartamento;38;16269,0;12928,0;21456,0;2519500,0;140,0
+Gramado;Jardim Bela Vista;Casa;10;9358,0;6690,0;11348,0;2675000,0;248,0
+Gramado;Lago Negro;Apartamento;27;12830,0;10438,0;18354,0;1250000,0;96,0
+Gramado;Lago Negro;Casa;10;10856,0;10340,0;12169,0;1817900,0;168,0
+Gramado;Lagos do Bosque;Apartamento;35;17210,0;14911,0;18662,0;1340000,0;83,0
+Gramado;Laken;Terreno;12;2170,0;2114,0;2338,0;2297625,0;1045,0
+Gramado;Mato Queimado;Apartamento;46;13021,0;11326,0;16208,0;1090000,0;83,0
+Gramado;Mato Queimado;Casa;86;10498,0;9186,0;13776,0;2902500,0;252,0
+Gramado;Mato Queimado;Terreno;31;1102,0;960,0;1396,0;841533,0;800,0
+Gramado;Moura;Apartamento;84;12860,0;11784,0;14429,0;852500,0;68,0
+Gramado;Moura;Casa;22;12086,0;9924,0;14875,0;2900000,0;242,0
+Gramado;Moura;Terreno;16;1072,0;930,0;1496,0;482500,0;487,0
+Gramado;Parque Das Orquídeas;Apartamento;23;14390,0;10840,0;16418,0;1100000,0;76,0
+Gramado;Piratini;Apartamento;46;13199,0;11521,0;14742,0;924291,0;71,0
+Gramado;Piratini;Casa;17;7273,0;6250,0;8205,0;1171000,0;170,0
+Gramado;Planalto;Apartamento;371;18137,0;13519,0;23199,0;1620888,0;87,0
+Gramado;Planalto;Casa;69;10949,0;8514,0;13256,0;1850000,0;210,0
+Gramado;Prinstrop;Casa;14;10630,0;7458,0;14972,0;4700000,0;305,0
+Gramado;Pórtico;Casa;18;13980,0;8351,0;18063,0;3275000,0;310,0
+Gramado;Pórtico;Terreno;26;1100,0;990,0;1210,0;694170,0;640,0
+Gramado;Tirol;Apartamento;26;14941,0;11997,0;15844,0;1149025,0;86,0
+Gramado;Vale das Colinas;Casa;26;10846,0;8918,0;11657,0;2825000,0;300,0
+Gramado;Vale das Colinas;Terreno;37;1000,0;883,0;1100,0;664851,0;627,0
+Gramado;Vale do Bosque;Casa;27;12166,0;10254,0;13329,0;4040000,0;300,0
+Gramado;Vale dos Pinheiros;Casa;14;8817,0;8186,0;9841,0;677143,0;76,0
+Gramado;Vale dos Pinheiros;Terreno;15;495,0;444,0;564,0;390000,0;810,0
+Gramado;Vila Suiça;Apartamento;128;15544,0;11881,0;21319,0;1312500,0;76,0
+Gramado;Vila Suiça;Casa;17;9411,0;6919,0;11668,0;2500000,0;263,0
+Gramado;Vivendas do Arvoredo;Casa;23;10958,0;10197,0;12198,0;2900000,0;250,0
+Gramado;Vivendas do Arvoredo;Terreno;17;1431,0;1224,0;1542,0;640000,0;468,0
+Gramado;Várzea Grande 1º de Maio;Apartamento;103;12021,0;10022,0;14852,0;799000,0;63,0
+Gramado;Várzea Grande 1º de Maio;Casa;21;9241,0;8765,0;10366,0;750000,0;82,0
+Gramado;Várzea Grande 1º de Maio;Terreno;29;1080,0;798,0;1260,0;456000,0;515,0
+Nova Petrópolis;Bavária;Apartamento;12;8960,0;6853,0;12972,0;559000,0;70,0
+Nova Petrópolis;Bavária;Casa;20;5198,0;4542,0;7534,0;1190000,0;187,0
+Nova Petrópolis;Bavária;Terreno;30;354,0;292,0;660,0;208400,0;495,0
+Nova Petrópolis;Centro;Apartamento;84;9512,0;7940,0;10386,0;880000,0;101,0
+Nova Petrópolis;Centro;Casa;31;6765,0;5066,0;9074,0;1190000,0;221,0
+Nova Petrópolis;Centro;Terreno;16;788,0;634,0;1175,0;580000,0;501,0
+Nova Petrópolis;Juriti;Apartamento;20;9272,0;8386,0;10174,0;647000,0;76,0
+Nova Petrópolis;Juriti;Casa;25;7934,0;6719,0;8579,0;1380000,0;209,0
+Nova Petrópolis;Juriti;Terreno;23;935,0;767,0;1009,0;479000,0;528,0
+Nova Petrópolis;Linha Imperial;Casa;37;7040,0;5855,0;7895,0;1045000,0;170,0
+Nova Petrópolis;Linha Imperial;Terreno;52;604,0;447,0;661,0;244500,0;386,0
+Nova Petrópolis;Logradouro;Apartamento;27;7658,0;6878,0;9214,0;825000,0;102,0
+Nova Petrópolis;Logradouro;Casa;23;5562,0;4166,0;7050,0;1100000,0;169,0
+Nova Petrópolis;Logradouro;Terreno;23;909,0;791,0;1208,0;398568,0;434,0
+Nova Petrópolis;Pinhal Alto;Terreno;27;473,0;364,0;520,0;199000,0;429,0
+Nova Petrópolis;Piá;Casa;22;6464,0;5005,0;7701,0;662500,0;102,0
+Nova Petrópolis;Piá;Terreno;16;393,0;364,0;470,0;180000,0;465,0
+Nova Petrópolis;Pousada da Neve;Apartamento;164;7558,0;6680,0;9144,0;690000,0;86,0
+Nova Petrópolis;Pousada da Neve;Casa;96;7146,0;5983,0;8432,0;1249000,0;173,0
+Nova Petrópolis;Pousada da Neve;Terreno;91;792,0;612,0;996,0;398255,0;502,0
+Nova Petrópolis;Recanto do Sossego;Casa;17;6192,0;5192,0;7318,0;850000,0;133,0
+Nova Petrópolis;Recanto dos Plátanos;Terreno;10;720,0;634,0;796,0;305000,0;390,0
+Nova Petrópolis;Vale Verde;Apartamento;33;8462,0;6377,0;10041,0;600000,0;72,0
+Nova Petrópolis;Vale Verde;Casa;13;6522,0;4900,0;7879,0;899000,0;124,0
+Nova Petrópolis;Vale Verde;Terreno;14;292,0;262,0;370,0;180000,0;638,0
+Nova Petrópolis;Vila Germania;Casa;44;5656,0;4363,0;6644,0;643000,0;110,0
+Nova Petrópolis;Vila Germania;Terreno;20;468,0;390,0;594,0;272500,0;480,0
+Nova Petrópolis;Vila Olinda;Casa;10;6644,0;5537,0;6914,0;1375000,0;220,0
+Nova Petrópolis;Vila Olinda;Terreno;15;511,0;287,0;788,0;530000,0;587,0

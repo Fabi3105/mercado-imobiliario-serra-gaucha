@@ -1,0 +1,78 @@
+﻿cidade;tipologia;imoveis;preco_m2_mediana;preco_m2_p25;preco_m2_p75;preco_mediano;area_mediana
+Bento Gonçalves;Apartamento 1 quarto;155;8878,0;7106,0;11232,0;388113,0;45,0
+Bento Gonçalves;Apartamento 2 quartos;814;8008,0;6442,0;9276,0;600000,0;77,0
+Bento Gonçalves;Apartamento 3 quartos;661;9760,0;7809,0;11414,0;1270000,0;135,0
+Bento Gonçalves;Apartamento 4+ quartos;22;9135,0;7142,0;11608,0;2562209,0;270,0
+Bento Gonçalves;Apartamento quartos não informados;11;7320,0;5559,0;7560,0;398900,0;56,0
+Bento Gonçalves;Casa 2 quartos;48;5960,0;4916,0;7162,0;453500,0;82,0
+Bento Gonçalves;Casa 3 quartos;181;6425,0;5157,0;8596,0;955000,0;153,0
+Bento Gonçalves;Casa 4+ quartos;97;5079,0;4129,0;7500,0;1300000,0;240,0
+Bento Gonçalves;Casa quartos não informados;12;3537,0;2820,0;5334,0;862500,0;252,0
+Bento Gonçalves;Terreno;485;718,0;554,0;982,0;350000,0;429,0
+Canela;Apartamento 1 quarto;370;12115,0;10552,0;14544,0;686500,0;55,0
+Canela;Apartamento 2 quartos;642;12850,0;10425,0;15356,0;998506,0;79,0
+Canela;Apartamento 3 quartos;139;12295,0;9470,0;16092,0;1546300,0;116,0
+Canela;Apartamento 4+ quartos;10;14201,0;11822,0;17925,0;2245000,0;155,0
+Canela;Apartamento quartos não informados;13;15131,0;13172,0;16049,0;987897,0;71,0
+Canela;Casa 1 quarto;7;15573,0;12614,0;15756,0;848000,0;58,0
+Canela;Casa 2 quartos;192;8446,0;6591,0;10488,0;799000,0;96,0
+Canela;Casa 3 quartos;439;8819,0;7046,0;11178,0;1350000,0;155,0
+Canela;Casa 4+ quartos;304;8896,0;6212,0;11671,0;2190000,0;262,0
+Canela;Casa quartos não informados;17;10000,0;6116,0;12443,0;2785000,0;320,0
+Canela;Terreno;415;1020,0;766,0;1528,0;650000,0;640,0
+Carlos Barbosa;Apartamento 2 quartos;51;6716,0;6091,0;7501,0;499000,0;73,0
+Carlos Barbosa;Apartamento 3 quartos;35;6509,0;5703,0;7534,0;844966,0;128,0
+Carlos Barbosa;Casa 2 quartos;8;6640,0;5067,0;7119,0;600000,0;90,0
+Carlos Barbosa;Casa 3 quartos;28;5800,0;4470,0;6585,0;990000,0;190,0
+Carlos Barbosa;Casa 4+ quartos;17;5400,0;4579,0;6710,0;1350000,0;242,0
+Carlos Barbosa;Terreno;48;720,0;607,0;927,0;347500,0;477,0
+Caxias do Sul;Apartamento 1 quarto;261;8000,0;5667,0;9925,0;330000,0;42,0
+Caxias do Sul;Apartamento 2 quartos;2628;5584,0;4692,0;6826,0;369000,0;65,0
+Caxias do Sul;Apartamento 3 quartos;2275;7018,0;5214,0;9348,0;850000,0;121,0
+Caxias do Sul;Apartamento 4+ quartos;115;5217,0;4204,0;7214,0;1100000,0;214,0
+Caxias do Sul;Apartamento quartos não informados;44;6456,0;5196,0;8586,0;567500,0;86,0
+Caxias do Sul;Casa 1 quarto;10;4606,0;3100,0;7466,0;460000,0;96,0
+Caxias do Sul;Casa 2 quartos;673;4477,0;3643,0;5463,0;350000,0;79,0
+Caxias do Sul;Casa 3 quartos;1736;5038,0;3905,0;6313,0;830000,0;171,0
+Caxias do Sul;Casa 4+ quartos;775;4041,0;3019,0;5650,0;990000,0;264,0
+Caxias do Sul;Casa quartos não informados;76;3672,0;2546,0;5267,0;894500,0;262,0
+Caxias do Sul;Terreno;1953;774,0;539,0;1236,0;424000,0;432,0
+Farroupilha;Apartamento 2 quartos;139;6026,0;4728,0;7712,0;420000,0;68,0
+Farroupilha;Apartamento 3 quartos;93;7338,0;5505,0;9028,0;870000,0;116,0
+Farroupilha;Apartamento quartos não informados;6;7921,0;6479,0;8008,0;803000,0;98,0
+Farroupilha;Casa 2 quartos;119;5238,0;4276,0;6137,0;390000,0;78,0
+Farroupilha;Casa 3 quartos;146;5052,0;3807,0;6381,0;687000,0;146,0
+Farroupilha;Casa 4+ quartos;74;4352,0;3073,0;5658,0;744000,0;194,0
+Farroupilha;Casa quartos não informados;14;4650,0;3820,0;5548,0;768000,0;239,0
+Farroupilha;Terreno;265;528,0;420,0;696,0;249000,0;435,0
+Flores da Cunha;Apartamento 1 quarto;7;9091,0;7665,0;9530,0;403098,0;45,0
+Flores da Cunha;Apartamento 2 quartos;24;7034,0;6600,0;7726,0;520823,0;74,0
+Flores da Cunha;Apartamento 3 quartos;21;6188,0;5681,0;8652,0;814761,0;120,0
+Flores da Cunha;Casa 3 quartos;9;4550,0;4031,0;5660,0;599000,0;160,0
+Flores da Cunha;Terreno;56;441,0;397,0;550,0;187370,0;401,0
+Garibaldi;Apartamento 1 quarto;8;8920,0;7947,0;12756,0;348465,0;44,0
+Garibaldi;Apartamento 2 quartos;83;7165,0;6026,0;8558,0;565900,0;82,0
+Garibaldi;Apartamento 3 quartos;79;6733,0;5886,0;8679,0;779900,0;118,0
+Garibaldi;Casa 2 quartos;11;6416,0;5082,0;8037,0;572400,0;88,0
+Garibaldi;Casa 3 quartos;50;6136,0;4609,0;7827,0;1070000,0;181,0
+Garibaldi;Casa 4+ quartos;41;4667,0;3833,0;6010,0;1200000,0;259,0
+Garibaldi;Terreno;157;595,0;480,0;705,0;375000,0;595,0
+Gramado;Apartamento 1 quarto;557;15323,0;12829,0;19393,0;834510,0;56,0
+Gramado;Apartamento 2 quartos;1445;16234,0;13112,0;20978,0;1380921,0;81,0
+Gramado;Apartamento 3 quartos;523;16667,0;12840,0;20860,0;2100000,0;130,0
+Gramado;Apartamento 4+ quartos;91;16012,0;13441,0;23504,0;3500000,0;198,0
+Gramado;Apartamento quartos não informados;10;15751,0;14369,0;19918,0;1361000,0;77,0
+Gramado;Casa 1 quarto;8;10956,0;8928,0;12703,0;680000,0;62,0
+Gramado;Casa 2 quartos;91;9374,0;8374,0;10622,0;780000,0;80,0
+Gramado;Casa 3 quartos;333;10484,0;8375,0;12698,0;2479000,0;222,0
+Gramado;Casa 4+ quartos;298;13176,0;9644,0;16710,0;4497886,0;360,0
+Gramado;Casa quartos não informados;17;13087,0;11059,0;14918,0;5800000,0;400,0
+Gramado;Terreno;368;1183,0;943,0;1939,0;710000,0;643,0
+Nova Petrópolis;Apartamento 1 quarto;52;9756,0;8512,0;11926,0;496000,0;56,0
+Nova Petrópolis;Apartamento 2 quartos;230;7764,0;6678,0;9598,0;690000,0;86,0
+Nova Petrópolis;Apartamento 3 quartos;58;7810,0;6374,0;9587,0;1038785,0;138,0
+Nova Petrópolis;Casa 1 quarto;10;6938,0;6096,0;8172,0;440000,0;82,0
+Nova Petrópolis;Casa 2 quartos;122;6782,0;5526,0;7933,0;779500,0;115,0
+Nova Petrópolis;Casa 3 quartos;178;6764,0;5317,0;7976,0;1180000,0;184,0
+Nova Petrópolis;Casa 4+ quartos;56;5621,0;4650,0;7746,0;1600000,0;268,0
+Nova Petrópolis;Terreno;375;615,0;394,0;851,0;320000,0;490,0

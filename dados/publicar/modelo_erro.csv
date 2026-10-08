@@ -1,0 +1,4 @@
+﻿categoria;imoveis;r2_validacao;erro_mediano_pct;dentro_de_10_pct;dentro_de_20_pct;faixa80_inferior;faixa80_superior;erro_mediano_com_quartos_pct
+Apartamento;11688;0,855;17,3;30,5;56,6;0,711;1,41;17,2
+Casa;6212;0,804;22,8;23,9;45,0;0,638;1,582;22,8
+Terreno;4122;0,732;26,6;20,7;39,9;0,569;1,792;

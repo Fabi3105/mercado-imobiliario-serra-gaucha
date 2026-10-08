@@ -1,0 +1,5 @@
+expression PastaDados = "D:\Claude Code\Estudo_Imoveis_Serra" meta [IsParameterQuery = true, Type = "Text", IsParameterQueryRequired = true]
+	lineageTag: 7b11d5a9-dd81-4cd2-9380-434a4ac4b654
+
+	annotation PBI_ResultType = Text
+

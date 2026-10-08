@@ -1,0 +1,187 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "bb7c783866254b2d8451",
+  "position": {
+    "x": 24,
+    "y": 946,
+    "z": 15000,
+    "height": 300,
+    "width": 1232
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fAnuncios"
+                    }
+                  },
+                  "Property": "cidade"
+                }
+              },
+              "queryRef": "fAnuncios.cidade",
+              "nativeQueryRef": "cidade"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fAnuncios"
+                    }
+                  },
+                  "Property": "bairro"
+                }
+              },
+              "queryRef": "fAnuncios.bairro",
+              "nativeQueryRef": "bairro"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Medidas"
+                    }
+                  },
+                  "Property": "Bairro: imóveis"
+                }
+              },
+              "queryRef": "Medidas.Bairro: imóveis",
+              "nativeQueryRef": "Bairro: imóveis"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Medidas"
+                    }
+                  },
+                  "Property": "Bairro: R$/m² mediano"
+                }
+              },
+              "queryRef": "Medidas.Bairro: R$/m² mediano",
+              "nativeQueryRef": "Bairro: R$/m² mediano"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Medidas"
+                    }
+                  },
+                  "Property": "Bairro: R$/m² P25"
+                }
+              },
+              "queryRef": "Medidas.Bairro: R$/m² P25",
+              "nativeQueryRef": "Bairro: R$/m² P25"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Medidas"
+                    }
+                  },
+                  "Property": "Bairro: R$/m² P75"
+                }
+              },
+              "queryRef": "Medidas.Bairro: R$/m² P75",
+              "nativeQueryRef": "Bairro: R$/m² P75"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Medidas"
+                    }
+                  },
+                  "Property": "Bairro: preço mediano"
+                }
+              },
+              "queryRef": "Medidas.Bairro: preço mediano",
+              "nativeQueryRef": "Bairro: preço mediano"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Medidas"
+                    }
+                  },
+                  "Property": "Bairro: área mediana"
+                }
+              },
+              "queryRef": "Medidas.Bairro: área mediana",
+              "nativeQueryRef": "Bairro: área mediana"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "fAnuncios"
+                  }
+                },
+                "Property": "cidade"
+              }
+            },
+            "direction": "Ascending"
+          },
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Medidas"
+                  }
+                },
+                "Property": "Bairro: R$/m² mediano"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Bairros com 5 anúncios ou mais, por cidade (R$/m² típico entre 25% e 75% dos anúncios)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

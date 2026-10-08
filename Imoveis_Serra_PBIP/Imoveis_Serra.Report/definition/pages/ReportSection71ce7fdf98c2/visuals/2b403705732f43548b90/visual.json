@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "2b403705732f43548b90",
+  "position": {
+    "x": 24,
+    "y": 1254,
+    "z": 16000,
+    "height": 40,
+    "width": 1232
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Preços pedidos em anúncios, não preços de venda; o valor fechado costuma ser menor. A coleta trouxe de 66% a 100% do que o portal informava em cada cidade e tipo. Carlos Barbosa e Flores da Cunha têm poucos anúncios. Fonte: Chaves na Mão. Estudo independente.",
+                    "textStyle": {
+                      "fontSize": "9pt",
+                      "color": "#C9DCE1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Imoveis_Serra"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "a72d8b35-79a0-4ee0-9af6-9706dcbe65a6"
+  }
+}

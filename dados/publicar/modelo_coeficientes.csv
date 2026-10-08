@@ -1,0 +1,14 @@
+﻿categoria;variavel;coeficiente
+Apartamento;constante;9,89381
+Apartamento;ln_area;0,69559
+Apartamento;vagas;0,1345
+Apartamento;banheiros;0,11014
+Apartamento;cond;0,0
+Casa;constante;9,70011
+Casa;ln_area;0,73569
+Casa;vagas;0,04643
+Casa;banheiros;0,08096
+Casa;cond;0,14262
+Terreno;constante;7,32819
+Terreno;ln_area;0,83444
+Terreno;cond;0,07497

@@ -1,0 +1,4 @@
+relationship 9fe4433a-35bb-414b-a757-de9bfd4ce0a6
+	fromColumn: fAnuncios.cidade
+	toColumn: dCidade.cidade
+

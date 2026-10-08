@@ -1,0 +1,15 @@
+# Publica só o que está liberado abaixo; o resto (base de anúncios, fontes baixadas, rascunhos) fica no computador
+/*
+!/.gitignore
+!/README.md
+!/index.html
+!/ROTEIRO_POWER_BI.md
+!/Imoveis_Serra.pbit
+!/scripts/
+!/Imoveis_Serra_PBIP/
+!/dados/
+/dados/*
+!/dados/publicar/
+Imoveis_Serra_PBIP/**/.pbi/
+__pycache__/
+*.pyc

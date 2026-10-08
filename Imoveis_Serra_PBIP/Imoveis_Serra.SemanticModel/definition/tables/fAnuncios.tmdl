@@ -1,0 +1,131 @@
+table fAnuncios
+	lineageTag: ade70e77-6a8e-4282-aabb-6700bb4fe243
+
+	column id
+		dataType: int64
+		isHidden
+		lineageTag: e578ac15-d38d-4d44-8f6f-f5067b715c3b
+		summarizeBy: none
+		sourceColumn: id
+
+	column data_coleta
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: 833b8891-cb82-4016-bd34-71eaf8b16ec0
+		summarizeBy: none
+		sourceColumn: data_coleta
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column cidade
+		dataType: string
+		lineageTag: 1719827d-311b-4b4a-ac18-90b3f38f5322
+		summarizeBy: none
+		sourceColumn: cidade
+
+	column bairro
+		dataType: string
+		lineageTag: 8ea3bcf3-27a3-4419-bb32-54d721565d9b
+		summarizeBy: none
+		sourceColumn: bairro
+
+	column categoria
+		dataType: string
+		lineageTag: 98c4c36f-7092-49d8-9fae-84dd512fe1da
+		summarizeBy: none
+		sourceColumn: categoria
+
+	column em_condominio
+		dataType: string
+		lineageTag: f97d5be1-91d4-4759-a686-cf30b24e4910
+		summarizeBy: none
+		sourceColumn: em_condominio
+
+	column tipologia
+		dataType: string
+		lineageTag: db46d01b-1969-4fd7-bfd4-1bf73fb2c7de
+		summarizeBy: none
+		sourceColumn: tipologia
+
+	column preco_pedido
+		dataType: double
+		lineageTag: e430a726-c466-4a3e-bf0b-3561f56fec5d
+		summarizeBy: none
+		sourceColumn: preco_pedido
+
+	column area_m2
+		dataType: double
+		lineageTag: 71b8a743-7ac9-408e-9856-df47100a992e
+		summarizeBy: none
+		sourceColumn: area_m2
+
+	column preco_m2
+		dataType: double
+		lineageTag: 7af224cd-9d64-4f99-a478-1c1632c7b446
+		summarizeBy: none
+		sourceColumn: preco_m2
+
+	column quartos
+		dataType: double
+		lineageTag: 86d9a8f6-04ec-4d6b-9c72-c941047167ed
+		summarizeBy: none
+		sourceColumn: quartos
+
+	column banheiros
+		dataType: double
+		lineageTag: 92579b1d-b7e2-4113-8bb7-446c840ec44f
+		summarizeBy: none
+		sourceColumn: banheiros
+
+	column vagas
+		dataType: double
+		lineageTag: 7c7197e0-4fc7-4dde-9ac9-2d9e26fe9fb6
+		summarizeBy: none
+		sourceColumn: vagas
+
+	column faixa_preco
+		dataType: string
+		lineageTag: be9ff364-9776-45c8-8c36-539aa32ef5d5
+		summarizeBy: none
+		sourceColumn: faixa_preco
+		sortByColumn: faixa_ordem
+
+	column faixa_ordem
+		dataType: int64
+		isHidden
+		lineageTag: 350d83b6-34af-4d6b-848a-13ba61c2f958
+		summarizeBy: none
+		sourceColumn: faixa_ordem
+
+	column tipologia_curta
+		dataType: string
+		lineageTag: f39343fc-14ab-48c6-bf01-b0f3b34eb1a9
+		summarizeBy: none
+		sourceColumn: tipologia_curta
+
+	column local_mapa
+		dataType: string
+		lineageTag: ff910f5f-98ab-4cc3-a570-cf325eaf9e11
+		dataCategory: Place
+		summarizeBy: none
+		sourceColumn: local_mapa
+
+	partition fAnuncios = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaDados & "\dados\anuncios_tratados.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cabecalho = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    SemBOM = Table.TransformColumnNames(Cabecalho, each Text.Trim(_, {"#(FEFF)", " "})),
+				    Selecao = Table.SelectColumns(SemBOM, {"id", "data_coleta", "cidade", "bairro", "categoria", "em_condominio", "tipologia", "preco_pedido", "area_m2", "preco_m2", "quartos", "banheiros", "vagas", "faixa_preco"}),
+				    Tipos = Table.TransformColumnTypes(Selecao, {{"id", Int64.Type}, {"data_coleta", type date}, {"cidade", type text}, {"bairro", type text}, {"categoria", type text}, {"em_condominio", type text}, {"tipologia", type text}, {"preco_pedido", type number}, {"area_m2", type number}, {"preco_m2", type number}, {"quartos", type number}, {"banheiros", type number}, {"vagas", type number}, {"faixa_preco", type text}}, "pt-BR"),
+				    Condominio = Table.TransformColumns(Tipos, {{"em_condominio", each if _ = "True" then "Sim" else "Não", type text}}),
+				    Final = Table.AddColumn(Condominio, "faixa_ordem", each List.PositionOf({"até 300 mil", "300 a 500 mil", "500 a 750 mil", "750 mil a 1 mi", "1 a 1,5 mi", "1,5 a 2,5 mi", "acima de 2,5 mi"}, [faixa_preco]) + 1, Int64.Type),
+				    Curta = Table.AddColumn(Final, "tipologia_curta", each Text.Replace(Text.Replace([tipologia], "Apartamento", "Apto"), "quartos não informados", "s/ quartos"), type text),
+				    Local = Table.AddColumn(Curta, "local_mapa", each [bairro] & ", " & [cidade] & ", RS, Brasil", type text),
+				    Resultado = Local
+				in
+				    Resultado
+
+	annotation PBI_ResultType = Table
+

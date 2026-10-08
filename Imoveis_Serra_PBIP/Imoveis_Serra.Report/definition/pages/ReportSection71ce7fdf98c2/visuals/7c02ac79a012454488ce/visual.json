@@ -1,0 +1,49 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "7c02ac79a012454488ce",
+  "position": {
+    "x": 16,
+    "y": 12,
+    "z": 1000,
+    "height": 76,
+    "width": 1248
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Imóveis anunciados na Serra Gaúcha",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI Semibold",
+                      "fontSize": "24pt",
+                      "color": "#ffffff"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Preços pedidos em 22.022 anúncios de apartamentos, casas e terrenos em 9 cidades · coleta de 07/10/2026 · Chaves na Mão",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#a9c7cf"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

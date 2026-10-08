@@ -1,0 +1,100 @@
+table Medidas
+	lineageTag: 9b4c11f8-cb43-4f7b-87fa-aff4d53d636c
+
+	measure Imóveis = COUNTROWS(fAnuncios)
+		formatString: #,0
+		lineageTag: 5b6e2ac1-1b4d-4b8b-b41e-ea4a2389e13e
+
+	measure 'Preço médio' = AVERAGE(fAnuncios[preco_pedido])
+		formatString: "R$" #,0
+		lineageTag: 55fd2b9c-9c90-42be-837f-160f69cea858
+
+	measure 'Preço mediano' = MEDIAN(fAnuncios[preco_pedido])
+		formatString: "R$" #,0
+		lineageTag: da5dcdb3-5660-48e6-9b11-8dfd3fec9f10
+
+	measure 'Preço m² médio' = AVERAGE(fAnuncios[preco_m2])
+		formatString: "R$" #,0
+		lineageTag: 9626d3c7-e522-45be-82a0-7ce17966e6dc
+
+	measure 'Preço m² mediano' = MEDIAN(fAnuncios[preco_m2])
+		formatString: "R$" #,0
+		lineageTag: 8b06e158-3a6d-4b1a-a286-855490167f88
+
+	measure 'Preço m² P25' = PERCENTILE.INC(fAnuncios[preco_m2], 0.25)
+		formatString: "R$" #,0
+		lineageTag: 661270ed-40df-4686-98e1-707c8e462210
+
+	measure 'Preço m² P75' = PERCENTILE.INC(fAnuncios[preco_m2], 0.75)
+		formatString: "R$" #,0
+		lineageTag: fd4f2324-5dad-4209-ae75-152f53adbb5a
+
+	measure 'Área mediana' = MEDIAN(fAnuncios[area_m2])
+		formatString: #,0.0 "m²"
+		lineageTag: 9677ffe4-8764-4222-852d-a0ce8f5bfcc7
+
+	measure 'Faixa central R$/m²' = IF([Imóveis] > 0, FORMAT([Preço m² P25], "#,0") & " a " & FORMAT([Preço m² P75], "#,0"))
+		lineageTag: 01d43559-b21f-491c-9254-91f3fe269fe3
+
+	measure '% dos anúncios' = DIVIDE([Imóveis], CALCULATE([Imóveis], ALLSELECTED(fAnuncios)))
+		formatString: 0.0%
+		lineageTag: fe7249fc-6ec4-400e-ba05-76e8971681bb
+
+	measure 'Amostra pequena' = IF([Imóveis] > 0 && [Imóveis] < 30, "Amostra pequena (" & [Imóveis] & " anúncios): leia com cautela", " ")
+		lineageTag: c4badc0a-0ae8-4206-8ab4-c54e23e2ba5d
+
+	measure Latitude = AVERAGE(dCidade[latitude])
+		formatString: 0.0000
+		lineageTag: ee103c2d-dd49-4194-b244-78ca21e6c35b
+
+	measure Longitude = AVERAGE(dCidade[longitude])
+		formatString: 0.0000
+		lineageTag: 2f4fb597-f20d-4e6d-9080-7d7350413bc4
+
+	measure 'Bairro: imóveis' = IF([Imóveis] >= 5, [Imóveis])
+		formatString: #,0
+		displayFolder: Bairros (5+ anúncios)
+		lineageTag: 41223e53-b81c-42a2-bc8a-af8222a1f404
+
+	measure 'Bairro: R$/m² mediano' = IF([Imóveis] >= 5, [Preço m² mediano])
+		formatString: "R$" #,0
+		displayFolder: Bairros (5+ anúncios)
+		lineageTag: 63e36915-ed2d-43d4-b131-753734dd4001
+
+	measure 'Bairro: R$/m² P25' = IF([Imóveis] >= 5, [Preço m² P25])
+		formatString: "R$" #,0
+		displayFolder: Bairros (5+ anúncios)
+		lineageTag: 6b8be638-b086-48c8-b1f6-81e9c38011dd
+
+	measure 'Bairro: R$/m² P75' = IF([Imóveis] >= 5, [Preço m² P75])
+		formatString: "R$" #,0
+		displayFolder: Bairros (5+ anúncios)
+		lineageTag: 65b53ea6-ec0b-41c6-bca2-04ec2922dda9
+
+	measure 'Bairro: preço mediano' = IF([Imóveis] >= 5, [Preço mediano])
+		formatString: "R$" #,0
+		displayFolder: Bairros (5+ anúncios)
+		lineageTag: 4edc14e7-19a3-402f-8533-4a56cc1a4554
+
+	measure 'Bairro: área mediana' = IF([Imóveis] >= 5, [Área mediana])
+		formatString: #,0 "m²"
+		displayFolder: Bairros (5+ anúncios)
+		lineageTag: ac051b62-3bf2-40d3-8949-d54cbeac3da8
+
+	column Coluna
+		dataType: string
+		isHidden
+		lineageTag: 39058a54-f09d-4fcc-9565-9491870ea50b
+		summarizeBy: none
+		sourceColumn: Coluna
+
+	partition Medidas = m
+		mode: import
+		source =
+				let
+				    Fonte = #table(type table [Coluna = text], {})
+				in
+				    Fonte
+
+	annotation PBI_ResultType = Table
+

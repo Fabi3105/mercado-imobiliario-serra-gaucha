@@ -1,0 +1,156 @@
+table dCidade
+	lineageTag: 647f770a-6eaa-4397-86ba-d83d85061ee1
+
+	column cidade
+		dataType: string
+		lineageTag: f25a99e2-5566-4f7a-9460-74df2fb0a34c
+		summarizeBy: none
+		sourceColumn: cidade
+
+	column casas_2010
+		dataType: double
+		lineageTag: 6a097ba3-c6f6-4961-9a0a-f5a358b305eb
+		summarizeBy: sum
+		sourceColumn: casas_2010
+
+	column apartamentos_2010
+		dataType: double
+		lineageTag: e80b1fd3-5558-4e6f-bf74-bf10104bf356
+		summarizeBy: sum
+		sourceColumn: apartamentos_2010
+
+	column total_2010
+		dataType: double
+		lineageTag: 0e4a81b3-3eee-4ae7-b450-edb2302a3e5e
+		summarizeBy: sum
+		sourceColumn: total_2010
+
+	column casas_2022
+		dataType: double
+		lineageTag: 56f4f436-b1da-47e7-b3aa-f247ef7672d7
+		summarizeBy: sum
+		sourceColumn: casas_2022
+
+	column apartamentos_2022
+		dataType: double
+		lineageTag: 881b632e-0b72-4cc5-a5d0-8cfbc9b3d08b
+		summarizeBy: sum
+		sourceColumn: apartamentos_2022
+
+	column total_2022
+		dataType: double
+		lineageTag: 7e4e6f39-5507-4584-a7c7-dcd4c96fe726
+		summarizeBy: sum
+		sourceColumn: total_2022
+
+	column moradores_por_domicilio_2022
+		dataType: double
+		lineageTag: 56cc30b5-65fc-4bed-8c63-341ceedbde9a
+		summarizeBy: sum
+		sourceColumn: moradores_por_domicilio_2022
+
+	column casas_novos_por_ano
+		dataType: double
+		lineageTag: cf78d6c3-b499-4454-93ec-80329f29f11f
+		summarizeBy: sum
+		sourceColumn: casas_novos_por_ano
+
+	column casas_cresc_aa_pct
+		dataType: double
+		lineageTag: dd1bde82-2896-42a8-b3bd-35061ebf0c22
+		summarizeBy: sum
+		sourceColumn: casas_cresc_aa_pct
+
+	column casas_2031_se_ritmo_mantido
+		dataType: double
+		lineageTag: c2c331e7-763d-4809-a2d3-4e3aae708eeb
+		summarizeBy: sum
+		sourceColumn: casas_2031_se_ritmo_mantido
+
+	column apartamentos_novos_por_ano
+		dataType: double
+		lineageTag: 9b752d78-82b7-41a7-b118-4648a2436311
+		summarizeBy: sum
+		sourceColumn: apartamentos_novos_por_ano
+
+	column apartamentos_cresc_aa_pct
+		dataType: double
+		lineageTag: af6177fe-3926-4b01-a7b0-067ef7f97927
+		summarizeBy: sum
+		sourceColumn: apartamentos_cresc_aa_pct
+
+	column apartamentos_2031_se_ritmo_mantido
+		dataType: double
+		lineageTag: 8a9f9694-fecd-45d0-b890-d9f40586489f
+		summarizeBy: sum
+		sourceColumn: apartamentos_2031_se_ritmo_mantido
+
+	column total_novos_por_ano
+		dataType: double
+		lineageTag: 9b00f759-af55-445f-bb08-f86aced2d7d0
+		summarizeBy: sum
+		sourceColumn: total_novos_por_ano
+
+	column total_cresc_aa_pct
+		dataType: double
+		lineageTag: d7b56917-f9b4-4965-b178-a30b5c1729f1
+		summarizeBy: sum
+		sourceColumn: total_cresc_aa_pct
+
+	column total_2031_se_ritmo_mantido
+		dataType: double
+		lineageTag: 86ba93c3-8ef6-4ce2-b61d-dc2d7390eb47
+		summarizeBy: sum
+		sourceColumn: total_2031_se_ritmo_mantido
+
+	column pct_apartamentos_2010
+		dataType: double
+		lineageTag: 8b8c6902-d6a4-4ab0-a857-73e82a25a4e8
+		summarizeBy: sum
+		sourceColumn: pct_apartamentos_2010
+
+	column pct_apartamentos_2022
+		dataType: double
+		lineageTag: 0483c978-a87b-48d0-9572-297a49f4ce67
+		summarizeBy: sum
+		sourceColumn: pct_apartamentos_2022
+
+	column Perfil = IF(dCidade[cidade] IN {"Gramado", "Canela", "Nova Petrópolis"}, "Turística", "Vale dos Vinhedos e Caxias")
+		dataType: string
+		lineageTag: 09bc4b37-cc14-41a8-92b1-2bad01873964
+		summarizeBy: none
+
+	column latitude
+		dataType: double
+		isHidden
+		lineageTag: 2ea091af-b34b-4063-99a2-1b6056a4470c
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: latitude
+
+	column longitude
+		dataType: double
+		isHidden
+		lineageTag: 4f288222-03c6-4b71-96bd-6d0294ca96c9
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: longitude
+
+	partition dCidade = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaDados & "\dados\publicar\domicilios_censo.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cabecalho = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    SemBOM = Table.TransformColumnNames(Cabecalho, each Text.Trim(_, {"#(FEFF)", " "})),
+				    Selecao = Table.SelectColumns(SemBOM, {"cidade", "casas_2010", "apartamentos_2010", "total_2010", "casas_2022", "apartamentos_2022", "total_2022", "moradores_por_domicilio_2022", "casas_novos_por_ano", "casas_cresc_aa_pct", "casas_2031_se_ritmo_mantido", "apartamentos_novos_por_ano", "apartamentos_cresc_aa_pct", "apartamentos_2031_se_ritmo_mantido", "total_novos_por_ano", "total_cresc_aa_pct", "total_2031_se_ritmo_mantido", "pct_apartamentos_2010", "pct_apartamentos_2022"}),
+				    Tipos = Table.TransformColumnTypes(Selecao, {{"cidade", type text}, {"casas_2010", type number}, {"apartamentos_2010", type number}, {"total_2010", type number}, {"casas_2022", type number}, {"apartamentos_2022", type number}, {"total_2022", type number}, {"moradores_por_domicilio_2022", type number}, {"casas_novos_por_ano", type number}, {"casas_cresc_aa_pct", type number}, {"casas_2031_se_ritmo_mantido", type number}, {"apartamentos_novos_por_ano", type number}, {"apartamentos_cresc_aa_pct", type number}, {"apartamentos_2031_se_ritmo_mantido", type number}, {"total_novos_por_ano", type number}, {"total_cresc_aa_pct", type number}, {"total_2031_se_ritmo_mantido", type number}, {"pct_apartamentos_2010", type number}, {"pct_apartamentos_2022", type number}}, "pt-BR"),
+				    Coords = [#"Caxias do Sul" = {-29.1678, -51.1794}, #"Bento Gonçalves" = {-29.1714, -51.5192}, #"Gramado" = {-29.3787, -50.874}, #"Canela" = {-29.365, -50.8117}, #"Nova Petrópolis" = {-29.3761, -51.1136}, #"Farroupilha" = {-29.225, -51.3478}, #"Garibaldi" = {-29.2564, -51.5336}, #"Carlos Barbosa" = {-29.2976, -51.5036}, #"Flores da Cunha" = {-29.0286, -51.1819}],
+				    ComLat = Table.AddColumn(Tipos, "latitude", each Record.FieldOrDefault(Coords, [cidade], {null, null}){0}, type number),
+				    Local = Table.AddColumn(ComLat, "longitude", each Record.FieldOrDefault(Coords, [cidade], {null, null}){1}, type number),
+				    Resultado = Local
+				in
+				    Resultado
+
+	annotation PBI_ResultType = Table
+
