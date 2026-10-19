@@ -81,7 +81,7 @@ td.range svg{width:180px;height:18px;display:block}
 .notes p{margin:0}
 #tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);font-size:12px;padding:7px 9px;border-radius:6px;z-index:20;max-width:240px;line-height:1.4;font-variant-numeric:tabular-nums}
 .empty{color:var(--ink-3);padding:20px;text-align:center}
-@media (max-width:520px){.seg button{flex:1 1 auto;justify-content:center} .kpi .v{font-size:22px} select{min-width:0;width:100%} .fgroup{flex:1 1 140px}}
+@media (max-width:520px){.filters{gap:10px 12px} .fgroup{flex:1 1 140px} .fgroup:has(.seg){flex:1 1 100%;order:-1} .seg{flex-wrap:nowrap} .seg button{flex:1 1 0;justify-content:center;padding:8px 6px;min-height:40px} .kpi .v{font-size:22px} select{min-width:0;width:100%;min-height:40px}}
 @media (prefers-reduced-motion:no-preference){.bar{transition:width .25s ease,opacity .15s}}
 
 .hero{background:linear-gradient(135deg,var(--hero1),var(--hero2) 55%,var(--hero3));color:#fff;border-radius:14px;padding:26px 24px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px}
@@ -216,7 +216,7 @@ $('fCidade').innerHTML='<option value="*">Todas as cidades</option>'+D.cidades.m
 $('fTipo').innerHTML=['*',...D.cats].map(c=>`<button type="button" data-v="${c}" aria-pressed="false">${c==='*'?'Todos':`<span class="dot" style="background:${CATCOL[c]}"></span>${c}`}</button>`).join('');
 $('fCidade').onchange=e=>{st.c=e.target.value;render()};
 $('fTipo').onclick=e=>{const b=e.target.closest('button');if(!b)return;st.cat=b.dataset.v;st.t='*';render()};
-$('fTip').onchange=e=>{st.t=e.target.value;render()};
+$('fTip').onchange=e=>{const v=e.target.value;if(v.includes('||')){const[c,t]=v.split('||');st.cat=c;st.t=t}else st.t=v;render()};
 $('reset').onclick=()=>{st.sort=0;st.dir=1;st.c='*';st.cat='*';st.t='*';st.q='';$('q').value='';render()};
 $('q').oninput=e=>{st.q=e.target.value.trim().toLowerCase();renderTable()};
 document.querySelectorAll('th[data-k]').forEach(th=>{const go=()=>{const k=+th.dataset.k;if(st.sort===k)st.dir*=-1;else{st.sort=k;st.dir=k<=1?1:-1}renderTable()};th.onclick=go;th.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go()}}});
@@ -225,7 +225,9 @@ function syncControls(){
   $('fCidade').value=st.c;
   $('fTipo').querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.v===st.cat));
   const sel=$('fTip');
-  if(st.cat==='*'||st.cat==='Terreno'){sel.innerHTML='<option value="*">Todas</option>';sel.disabled=true}
+  /* Com "Todos" a caixa fica ativa e lista as tipologias agrupadas por tipo; escolher uma também seleciona o tipo */
+  if(st.cat==='Terreno'){sel.innerHTML='<option value="*">Não se aplica a terrenos</option>';sel.disabled=true}
+  else if(st.cat==='*'){sel.disabled=false;sel.innerHTML='<option value="*">Todas</option>'+D.cats.filter(c=>c!=='Terreno'&&D.tip[c]).map(c=>{const ts=D.tip[c].filter(t=>D.K[key(st.c,c,t)]);return ts.length?`<optgroup label="${esc(c)}">`+ts.map(t=>`<option value="${esc(c)}||${esc(t)}">${esc(t)}</option>`).join('')+'</optgroup>':''}).join('');sel.value='*'}
   else{sel.disabled=false;sel.innerHTML='<option value="*">Todas</option>'+D.tip[st.cat].filter(t=>D.K[key(st.c,st.cat,t)]).map(t=>`<option>${esc(t)}</option>`).join('');if(!D.K[key(st.c,st.cat,st.t)])st.t='*';sel.value=st.t}
 }
 
